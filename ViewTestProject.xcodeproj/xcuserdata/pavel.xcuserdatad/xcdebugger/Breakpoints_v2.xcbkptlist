@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewTestProgect/ViewController.m"
-            timestampString = "575302603.824517"
+            timestampString = "575304010.977734"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ViewTestProgect/ViewController.m"
-            timestampString = "575302603.824584"
+            timestampString = "575304010.977818"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "-prepareUI"
             landmarkType = "7">
          </BreakpointContent>

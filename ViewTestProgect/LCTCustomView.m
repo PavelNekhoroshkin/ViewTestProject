@@ -15,8 +15,8 @@
 @implementation LCTCustomView
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)even{
-    UITouch * touch = touches.anyObject;
-    CGPoint  point = [touch locationInView:self];
+//    UITouch * touch = touches.anyObject;
+//    CGPoint  point = [touch locationInView:self];
 //    NSLog(@"Касание %.0f %.0f", point.x, point.y);
 }
 -(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -26,20 +26,20 @@
 //    NSLog(@"Перетаскивание %.0f %.0f", point.x, point.y);
         
         point.x =  point.x +  self.frame.origin.x;
-        if (point.x < 0) {point.x = 0;}
-        if (point.x > CGRectGetMaxX(self.frame)) {point.x = CGRectGetMaxX(self.frame);}
+//        if (point.x < 0) {point.x = 0;}
+//        if (point.x > CGRectGetMaxX(self.frame)) {point.x = CGRectGetMaxX(self.frame);}
         
         point.y =  point.y +  self.frame.origin.y;
-        if (point.y < 0) {point.y = 0;}
-        if (point.y > CGRectGetMaxY(self.frame)) {point.x = CGRectGetMaxY(self.frame);}
+//        if (point.y < 0) {point.y = 0;}
+//        if (point.y > CGRectGetMaxY(self.frame)) {point.x = CGRectGetMaxY(self.frame);}
         self.center = point;
         NSLog(@" %.0f %.0f", point.x, point.y);
 
 }
 
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    UITouch * touch = touches.anyObject;
-    CGPoint  point = [touch locationInView:self];
+//    UITouch * touch = touches.anyObject;
+//    CGPoint  point = [touch locationInView:self];
 //    NSLog(@"Конец %.0f %.0f", point.x, point.y);
 }
 

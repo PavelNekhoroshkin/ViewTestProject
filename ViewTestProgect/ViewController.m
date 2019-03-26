@@ -29,11 +29,6 @@
     
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)even{
-        UITouch * touch = touches.anyObject;
-        CGPoint  point = [touch locationInView:self];
-    
-}
 
 
 //подготовка интерфейса
